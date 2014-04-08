@@ -1,0 +1,127 @@
+body {
+	font-family: 'Lato', sans-serif;
+	background: url("../images/background.png");	
+}
+
+/* header */
+
+header {
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	font-size: 35px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+
+/*** Content ***/
+
+section {
+	width: 100%;
+}
+
+/* Tabs */
+
+#tabs {
+	width: 70%;
+	margin: 0 auto;
+	box-shadow: 1px 1px 2px #363636;
+	-webkit-box-shadow: 1px 1px 2px #363636;
+	-moz-box-shadow: 1px 1px 2px #363636;
+	background: #fff;
+}
+
+#tabs ul {
+	list-style-type: none;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	margin: 0;
+	padding-left: 10px;
+}
+
+#tabs li {
+	float: left;
+	clear: none;
+	display: inline-block;
+}
+
+#tabs ul li a {
+	padding: 10px 5px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #363636;
+	text-decoration: none;
+	display: block;
+}
+
+#tabs ul li a:after {
+	content: "|";
+	color: #ddd;
+	padding-left: 10px;
+}
+
+#tabs ul li:last-child a:after {
+	content: none;
+}
+
+.ui-tabs-active a, li a:hover {
+	color: #dd0000 !important;
+}
+
+.ui-tabs-active a:after, li a:hover:after {
+	text-decoration: none !important;
+}
+
+/* Content */
+
+#tabs div {
+	clear: both;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: 400;
+	margin: 0 0 10px;
+}
+
+.wrapper {
+	padding: 20px 2%;
+}
+.wrapper .feeds {
+	width: 60%;
+}
+
+.wrapper .feed {
+	padding: 10px 0;
+}
+
+.wrapper div a {
+	font-size: 14px;
+	color: #363636;
+	
+}
+
+.wrapper div p {
+	font-size: 12px;
+	padding: 0;
+	margin: 5px 0;
+}
+
+.wrapper .date {
+	font-size: 11px;
+	color: #dd0000;
+	font-weight: 300;
+}
+
+/* footer */
+footer {
+	width: 100%;
+	text-align: center;
+}
+footer p {
+	font-size: 10px;
+	font-weight: 300;
+}
